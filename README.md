@@ -5,7 +5,7 @@ I will be deliberately ignoring the [Unicode 13.0 spec](https://unicode.org/vers
 
 Current count of removed emojis: 1711 (and counting!)
 
-Emojis changed to circular smileys: 0 (for now)
+Emojis changed to circular smileys: 8 (for now)
 
 ## API
 
