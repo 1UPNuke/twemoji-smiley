@@ -3,6 +3,8 @@ The goal of this project is to make emoji inclusive, without adding a ton of com
 
 I will be deliberately ignoring the [Unicode 13.0 spec](https://unicode.org/versions/Unicode13.0.0/) and the [Emoji 13.0 spec](https://www.unicode.org/reports/tr51/tr51-18.html) to achieve this effect.
 
+Current count of removed emojis: 1711 (and counting!)
+
 ## API
 
 Following are all the methods exposed in the `twemoji` namespace.
