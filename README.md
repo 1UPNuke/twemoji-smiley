@@ -1,33 +1,7 @@
-# Twitter Emoji (Twemoji) [![Build Status](https://travis-ci.org/twitter/twemoji.svg?branch=gh-pages)](https://travis-ci.org/twitter/twemoji)
+A simple library that replaces emoji that change based on hair, gender and/or race with standard circular yellow smileys.
+The goal of this project is to make emoji inclusive, without adding a ton of complexity to include any and all facets of human life.
 
-A simple library that provides standard Unicode [emoji](http://en.wikipedia.org/wiki/Emoji) support across all platforms.
-
-**Twemoji v13.0** adheres to the [Unicode 13.0 spec](https://unicode.org/versions/Unicode13.0.0/) and supports the [Emoji 13.0 spec](https://www.unicode.org/reports/tr51/tr51-18.html)
-
-The Twemoji library offers support for **3,304** emojis.
-
-## Usage
-
-### CDN Support
-
-The folks over at [MaxCDN](https://www.maxcdn.com) have graciously provided CDN support.
-
-Use the following in the `<head>` tag of your HTML document(s):
-
-```html
-<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
-```
-
-This guarantees that you will always use the latest version of the library.
-
-If, instead, you'd like to include the latest version explicitly, you can add the following tag:
-```html
-<script src="https://twemoji.maxcdn.com/v/13.0.1/twemoji.min.js" integrity="sha384-5f4X0lBluNY/Ib4VhGx0Pf6iDCF99VGXJIyYy7dDLY5QlEd7Ap0hICSSZA1XYbc4" crossorigin="anonymous"></script>
-```
-
-### Download
-
-If instead you want to download a specific version, please look at the `gh-pages` branch, where you will find the built assets for both our latest and older versions.
+I will be deliberately ignoring the [Unicode 13.0 spec](https://unicode.org/versions/Unicode13.0.0/) and the [Emoji 13.0 spec](https://www.unicode.org/reports/tr51/tr51-18.html) to achieve this effect.
 
 ## API
 
@@ -204,50 +178,15 @@ twemoji.parse(document.body, {
 });
 ```
 
-## Legacy API (V1)
-
-If you're still using our V1 API, you can read our legacy documentation [here](https://github.com/twitter/twemoji/tree/master/LEGACY.md).
-
 ## Contributing
 
-The contributing documentation can be found [here](https://github.com/twitter/twemoji/tree/master/CONTRIBUTING.md).
+The contributing documentation can be found [here](https://github.com/1UPNuke/twemoji-smiley/tree/master/CONTRIBUTING.md).
 
 ## Attribution Requirements
 
 As an open source project, attribution is critical from a legal, practical and motivational perspective in our opinion. The graphics are licensed under the CC-BY 4.0 which has a pretty good guide on [best practices for attribution](https://wiki.creativecommons.org/Best_practices_for_attribution).
 
 However, we consider the guide a bit onerous and as a project, will accept a mention in a project README or an 'About' section or footer on a website. In mobile applications, a common place would be in the Settings/About section (for example, see the mobile Twitter application Settings->About->Legal section). We would consider a mention in the HTML/JS source sufficient also.
-
-## Community Projects
-
-* [Twemoji Amazing](https://github.com/SebastianAigner/twemoji-amazing) by [@SebastianAigner](https://github.com/SebastianAigner): Use Twemoji using CSS classes (like [Font Awesome](http://fortawesome.github.io/Font-Awesome/)).
-* [Twemoji Ruby](https://github.com/jollygoodcode/twemoji) by [@JollyGoodCode](https://twitter.com/jollygoodcode): Use Twemoji in Ruby.
-* [Twemoji for Pencil](https://github.com/nathanielw/Twemoji-for-Pencil) by [@Nathanielnw](https://twitter.com/nathanielnw): Use Twemoji in Pencil.
-* [FrwTwemoji - Twemoji in dotnet](http://github.frenchw.net/FrwTwemoji/) by [@FrenchW](https://twitter.com/frenchw): Use Twemoji in any dotnet project (C#, asp.net ...).
-* [Emojiawesome - Twemoji for Yellow](https://github.com/datenstrom/yellow-extensions/tree/master/features/emojiawesome) by [@datenstrom](https://github.com/datenstrom/): Use Twemoji on your website.
-* [EmojiPanel for Twitter](https://github.com/danbovey/EmojiPanel) by [@danielbovey](https://twitter.com/danielbovey/status/749580050274582528): Insert Twemoji into your tweets on twitter.com.
-* [Twitter Color Emoji font](https://github.com/eosrei/twemoji-color-font) by [@bderickson](https://twitter.com/bderickson): Use Twemoji as your system default font on Linux & OS X.
-* [Emojica](https://github.com/xoudini/emojica) by [@xoudini](https://twitter.com/xoudini): An iOS framework allowing you to replace all standard emoji in strings with Twemoji.
-* [gwt-twemoji](https://github.com/phpmonkeys-de/gwt-twemoji) by [@nbartels](https://github.com/nbartels): Use Twemoji in GWT
-* [JavaFXEmojiTextFlow](https://github.com/pavlobu/emoji-text-flow-javafx) by [@pavlobu](https://github.com/pavlobu): A JavaFX library allowing you to replace all standard emoji in extended EmojiTextFlow with Twemoji.
-* [Vue Twemoji Picker](https://github.com/kevinfaguiar/vue-twemoji-picker) by [@kevinfaguiar](https://github.com/kevinfaguiar): A fast plug-n-play Twemoji Picker (+textarea for Twemoji rendering) for Vue.
-* [Unmaintained] [Twemoji Awesome](http://ellekasai.github.io/twemoji-awesome/) by [@ellekasai](https://twitter.com/ellekasai/): Use Twemoji using CSS classes (like [Font Awesome](http://fortawesome.github.io/Font-Awesome/)).
-
-## Committers and Contributors
-
-* Bryan Haggerty (Twitter)
-* Justine De Caires (Twitter)
-* Nathan Downs (ex-Twitter)
-* Tom Wuttke (ex-Twitter)
-* Andrea Giammarchi (ex-Twitter)
-* Joen Asmussen (WordPress)
-* Marcus Kazmierczak (WordPress)
-
-The goal of this project is to simply provide emoji for everyone. We definitely welcome improvements and fixes, but we may not merge every pull request suggested by the community due to the simple nature of the project.
-
-The rules for contributing are available in the `CONTRIBUTING.md` file.
-
-Thank you to all of our [contributors](https://github.com/twitter/twemoji/graphs/contributors).
 
 ## License
 
